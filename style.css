@@ -4,3 +4,49 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.welcome-page{
+    background-color: #FF704C;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    margin: 20px;
+}
+.add i{
+    height: 100px;
+    width: 100px;
+}
+.phone-streak img{
+    height: 45vh;
+}
+.message h3{
+    text-transform: capitalize;
+}
+.streaks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.card{
+    border: 1px solid #FF704C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card i,p{
+    margin: 5px;
+    /* padding: 10px; */
+}
+.card i{
+    color: rgb(9, 153, 153);
+}
