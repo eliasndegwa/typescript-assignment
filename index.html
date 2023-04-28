@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TypeScript Assignment</title>
+    <title>TypeScript Assignment | Streak App</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <div class="container">
+        <div class="welcome-page">
+            <div class="add">
+                <i class="fa-sharp fa-regular fa-circle-plus"></i>
+            </div>
+            <div class="phone-streak">
+                <img src="./images/demo2-with-watch.png" alt="Phone with streak counter">
+            </div>
+            <div class="message">
+                <span>Welcome to my streak counter</span>
+            </div>
+        </div>
+        <div class="streaks">
+            <h1>Activities</h1>
+            <div class="card">
+                <i class="fa-solid fa-ban-smoking"></i>
+                <p>2022-06-07</p>
+                <p>smoking</p>
+                <p>365 days</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-person-biking"></i>
+                <p>2022-06-07</p>
+                <p>cycling</p>
+                <p>365 days</p>
+            </div>
+            <div class="card">
+                <i class="fa-regular fa-burger-soda"></i>
+                <p>2022-06-07</p>
+                <p>healthy eating</p>
+                <p>365 days</p>
+            </div>
+            <div class="card">
+                <i class="fa-light fa-bed-front"></i>
+                <p>2022-06-07</p>
+                <p>enough sleep</p>
+                <p>365 days</p>
+            </div>
+            <div class="card">
+                <i class="fa-regular fa-person-walking"></i>
+                <p>2022-06-07</p>
+                <p>taking walks</p>
+                <p>365 days</p>
+            </div>
+        </div>
+    </div>
     <script src="./dist/app.js"></script>
 </body>
 </html>
